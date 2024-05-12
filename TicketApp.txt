@@ -1,0 +1,2 @@
+A simple app that tallys up the number of tickets sold and shows available
+tickets and number of buyers
