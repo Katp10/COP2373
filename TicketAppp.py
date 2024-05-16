@@ -1,24 +1,33 @@
-tickets = 20
-buyers = 0
-#function and loop
-while tickets > 1:
-    print("Number of Tickets for Sale: ", tickets)
+#function
+def ticket_sales():
 
-    #input
-    howManyTickets = int(input("How many tickets do you want?  "))
-    #if statement
-    if (5 < howManyTickets > 0) & (tickets - howManyTickets) >= 0:
-    #accumlator
-        buyers += 1
-        tickets -= howManyTickets
-    if howManyTickets > 4:
-        #output
-        print("a maximum of 4 tickets can be sold at a time")
-        print("All tickets sold; number of buyers: ", buyers)
-else:
+   tickets = 20
+
+   ticketsleft = tickets
+
+   buyers = 0
+
+   while ticketsleft > 0:
     #output
-    print("I'm sorry I can't sell this amount of tickets")
-    print("I only have ", tickets , "tickets left")
+       print(f"There are currently {ticketsleft} tickets remaining.")
+    #input
+       num_tickets = int(input("How many tickets would you like to purchase? "))
+        #if statement
+       if num_tickets < 1 or num_tickets > 4:
+        #output
+           print("Sorry, you cannot purchase that amount.")
 
+       elif num_tickets > ticketsleft:
 
+           print("Sorry, there are not enough tickets remaining.")
+
+       else:
+
+           ticketsleft -= num_tickets
+        #accumulator
+           buyers += 1
+
+   print(f"The total number of buyers was {buyers}")
+
+ticket_sales()
 

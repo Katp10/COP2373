@@ -1,2 +1,11 @@
-A simple app that tallys up the number of tickets sold and shows available
-tickets and number of buyers
+1. Kathy Poythress 05/13/2024
+
+2. A simple app that tallys the number of tickets sold and the buyers.
+
+3.tickets,
+
+4. Any functions you are creating.
+
+5. The logical steps to your program. Numbers your steps or write as pseudocode so it's easy for me to follow.
+
+6. Link to your COP2373 repository.
