@@ -1,0 +1,14 @@
+1. Kathy Poythress 05/18/2024
+
+2. A magic 8 ball game. You ask yes or no questions and it gives you an answer.
+
+3.responselist, again, infile, question
+
+4. main
+
+5. The 'main' function executes the magic 8 ball game. It starts off with 'infile' reading the 8ball_responses,txt
+The 'responselist' puts the 8ball_responses into list form. From there 'again' is created as string 'y'. As long as
+the player inputs "y" or "Y" the game continues again and again. If anything else is inputed the
+ game says Goodbye and exits.
+
+6. https://github.com/Katp10/COP2373
